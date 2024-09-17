@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  
+	android:layout_width="200dp"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <TextView android:textStyle="bold"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Project Name"/>
+	<EditText android:id="@+id/cappName"
+		android:layout_width="fill_parent"
+		android:inputType="text"
+		android:layout_height="wrap_content"
+		android:hint="Package 1"/>
+	<TextView android:textStyle="bold"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Package Name"/>
+	<EditText android:id="@+id/cpname"
+		android:inputType="text"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="com.mmar."/>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:weightSum="2">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Create"
+			android:id="@+id/creatoryes"
+			android:layout_weight="1"/>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Cancel"
+			android:id="@+id/creatorno"
+			android:layout_weight="1"/>
+	</LinearLayout>
+</LinearLayout>
